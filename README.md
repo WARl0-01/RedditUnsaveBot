@@ -12,7 +12,7 @@ I made this because RedditManager is super annoying to work with and very slow.
   Once you have created your app, select script and provide a name and description, for the about and redirect url just make it something like "http://localhost:8000"
   ![created app](https://user-images.githubusercontent.com/113136419/209192738-eb8e4488-d592-4141-b1e3-e3c3a0830e26.PNG)
 
-  Now we can run the download script! [Download](../blob/main/Downloader.py) it and run it using python3.
+  Now we can run the download script! [Download](../main/Downloader.py) it and run it using python3.
   
   Specify the name of the file, it can be anything you want. 
   Specify the Client Id next. We get this by going back to our reddit app and finding the first string 
