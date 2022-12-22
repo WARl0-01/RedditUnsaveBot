@@ -14,7 +14,7 @@ This is a bot that allows you to easily remove all of your saved posts on Reddit
   
   ![id and secret](https://user-images.githubusercontent.com/113136419/209197919-b5f34d2c-e5fe-4901-b17f-816e7a44dca6.PNG)
   
-4.5. Note that for the bot to work on any account it must be credited in the developer section of the bot page
+  Note that for the bot to work on any account it must be credited in the developer section of the bot page
 
 5. Find the newest version of the RedditUnsaveBot in the releases section of this repository. Download the bot and run it using Python 3.
   
