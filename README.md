@@ -23,7 +23,7 @@ This is a bot that allows you to easily remove all of your saved posts on Reddit
   
 8. Specify the directory where you want to save the bot.
 
-9. Go to the file produced by the downloader and replace all occurences of \ n with \n
+9. Go to the file produced by the downloader and replace all occurences of \ n with \n. There will be four occurences in lines: 44, 45, 46, and 47
   
 10. Once the setup is complete, you can run the bot by using the file that was created in step 6.
   
