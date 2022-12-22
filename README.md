@@ -1,34 +1,28 @@
 # RedditUnsaveBot
-This is a bot that will un-save all your saved posts! It supports multiple accounts and allows you to easily specify which account to use!
-I made this because RedditManager is super annoying to work with and very slow.
+This is a bot that allows you to easily remove all of your saved posts on Reddit. It supports multiple accounts, so you can choose which account you want to use. The main advantage of using this bot is that you don't have to give your account information to a third party.
 
-## How to download:
-  First navigate to the website https://www.reddit.com/prefs/apps 
+## How to download and use the bot:
+1. Go to the website https://www.reddit.com/prefs/apps
   
-  Then Create a bot, to do this scroll all the way to the bottom and click "create another app"
+2. Scroll to the bottom and click "create another app".
   
-  ![create_another_app](https://user-images.githubusercontent.com/113136419/209192264-f2a83c72-20ea-4fd7-acc0-7099b4d309d7.PNG)
+  ![create_another_app](https://user-images.githubusercontent.com/113136419/209197749-1e630349-cf59-4e70-b80e-0f49b1c1beee.PNG)
   
-  Once you have created your app, select script and provide a name and description, for the about and redirect url just make it something like "http://localhost:8000"
-  ![created app](https://user-images.githubusercontent.com/113136419/209192738-eb8e4488-d592-4141-b1e3-e3c3a0830e26.PNG)
+3. Fill out the form to create a new app. Make sure to select "script" as the type of app, and provide a name and description. For the "about url" and "redirect url", you can use something like "http://localhost:8000".
+  
+4. Once you have created your app, you will be given a "client id" and a "client secret". Make note of these, as you will need them later.
+  
+  ![id and secret](https://user-images.githubusercontent.com/113136419/209197919-b5f34d2c-e5fe-4901-b17f-816e7a44dca6.PNG)
 
-  Now we can run the download script! Find the newest version in realeases, download it, and run it using python3.
+5. Find the newest version of the RedditUnsaveBot in the releases section of this repository. Download the bot and run it using Python 3.
   
-  Specify the name of the file, it can be anything you want. 
-  Specify the Client Id next. We get this by going back to our reddit app and finding the first string 
+6. When prompted, enter the name of the file that you want to save the bot as.
   
-  ![id](https://user-images.githubusercontent.com/113136419/209193593-026d537a-72b4-4bda-8753-94ceee22ddbd.PNG)
+7. Enter the client id and client secret that you obtained in step 4.
   
-  Specify the Client Secret next, this is labled as "secret" 
+8. Specify the directory where you want to save the bot.
   
-  ![secret](https://user-images.githubusercontent.com/113136419/209193699-a8a1465d-013e-45b7-a4b5-2025d2dc4a3f.PNG)
-  
-  Then specify directory as prompted to.
-  Finnally you can run the program it creates!
-
+9. Once the setup is complete, you can run the bot by using the file that was created in step 6.
   
 ## Use case:
-  To automatically remove mass amounts of saved posts easily, with the adddit benifit of not giving your account over/access to some third party
-
-## Recommendations:
-  This is best used with [BDFR](https://github.com/aliparlakci/bulk-downloader-for-reddit) as BDFR downloads all your saved posts and this bot removes them. You could create a batch file that runs BDFR and downloads all your posts, then removes all your posts with this bot :3
+  This bot is useful for quickly removing a large number of saved posts. It can be used in conjunction with the Bulk Downloader for Reddit (BDFR) to first download all of your saved posts, and then remove them using this bot. To do this, you could create a batch file that runs BDFR to download all of your saved posts, and then runs this bot to remove them. This allows you to have a backup of your saved posts before deleting them.
