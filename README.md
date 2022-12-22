@@ -25,7 +25,7 @@ This is a bot that allows you to easily remove all of your saved posts on Reddit
 
 9. Go to the file produced by the downloader and replace all occurences of \ n with \n
   
-. Once the setup is complete, you can run the bot by using the file that was created in step 6.
+10. Once the setup is complete, you can run the bot by using the file that was created in step 6.
   
 ## Use case:
   This bot is useful for quickly removing a large number of saved posts. It can be used in conjunction with the Bulk Downloader for Reddit (BDFR) to first download all of your saved posts, and then remove them using this bot. To do this, you could create a batch file that runs BDFR to download all of your saved posts, and then runs this bot to remove them. This allows you to have a backup of your saved posts before deleting them.
