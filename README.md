@@ -10,11 +10,10 @@ This is a bot that allows you to easily remove all of your saved posts on Reddit
   
 3. Fill out the form to create a new app. Make sure to select "script" as the type of app, and provide a name and description. For the "about url" and "redirect url", you can use something like "http://localhost:8000".
   
-4. Once you have created your app, you will be given a "client id" and a "client secret". Make note of these, as you will need them later.
+4. Once you have created your app, you will be given a "client id" and a "client secret". Make note of these, as you will need them later. Note that for the bot to work on any account it must be credited in the developer section of the bot page
   
   ![id and secret](https://user-images.githubusercontent.com/113136419/209197919-b5f34d2c-e5fe-4901-b17f-816e7a44dca6.PNG)
   
-  Note that for the bot to work on any account it must be credited in the developer section of the bot page
 
 5. Find the newest version of the RedditUnsaveBot in the releases section of this repository. Download the bot and run it using Python 3.
   
