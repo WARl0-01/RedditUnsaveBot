@@ -1,10 +1,8 @@
 # RedditUnsaveBot
-This is a bot that allows you to easily remove all of your saved posts on Reddit. It supports multiple accounts, so you can choose which account you want to use. The main advantage of using this bot is that you don't have to give your account information to a third party.
+This is a bot that allows you to easily remove all of your saved posts on Reddit. It supports multiple accounts, so you can choose which account you want to use. The main advantage of using this bot is that you don't have to give your account information to a third party. I am also very much an amateur and new to this whole github thingy
 
 # THIS CODE STORES YOUR REDDIT PASSCODE(S) IN PLAINTEXT
 ### You gotta edit this horrendus code if you want any level of security
-
-## I am very much an amateur and new to this whole github thingy
 
 ## How to download and use the bot:
 1. Go to the website https://www.reddit.com/prefs/apps
