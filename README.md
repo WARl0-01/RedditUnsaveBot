@@ -1,4 +1,5 @@
-# This is like very WIP and I'm going to get around to fixing this and making it usable, I'm just busy
+# This is like very WIP and I'm going to get around to fixing this and making it more usable, I'm just busy
+# read me is getting fixed as well
 ### Features planned:
 1. Log file output
 2. Restore from log file
