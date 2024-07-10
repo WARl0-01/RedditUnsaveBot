@@ -2,7 +2,7 @@
 ### Features planned:
 1. Log file output
 2. Restore saved posts from log file
-3. Smoother transition between every 100 posts. [Find out why this is here (placeholder)](placeholder)
+3. Smoother transition between every 100 posts. [Find out why this is here (placeholder)](https://github.com/WARl0-01/RedditUnsaveBot/blob/main/BruteForceDownloading.txt)
 4. ~~Work on anti/mitigating rate limiting~~ currently I have not seen this be an issue, but I will keep paying attention to it
 5. Encrypt login info (yeah I know I should have done that forever ago...)
 6. I want to add run commands to my program so you can specify which account you want to use in one command, I've seen some programs do stuff like this with -(something) at the end of their commands, I just need to research this and then impliment it
